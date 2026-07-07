@@ -87,7 +87,7 @@ export function ProcessSection() {
               loading="lazy"
             />
             {/* Seamless dark overlay to hide the bottom-right AI watermark */}
-            <div className="absolute -bottom-2 -right-2 w-32 h-32 bg-gradient-to-tl from-[#000000] via-[#000000]/90 to-transparent blur-sm"></div>
+            <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-[#000000] blur-[40px] rounded-full z-10 pointer-events-none"></div>
           </div>
         </Reveal>
 
