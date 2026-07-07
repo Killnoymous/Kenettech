@@ -8,35 +8,35 @@ export function ProcessSection() {
     {
       num: "01",
       title: "Discover",
-      desc: "You're The Subject Expert. We're The Design Expert. We Sit At Your Table, Download Your Goals, Understand Why It Matters And Develop A Plan To Get There.",
+      desc: "We start by understanding the real problem, not just the requirements doc. Stakeholder interviews, technical audits, and clear success metrics — before a single line of code is written.",
       img: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&q=80&w=800",
       layout: "col",
     },
     {
       num: "02",
       title: "Strategize",
-      desc: "Founded With Passion For Technology And Design, Quergedruckt Stands For Creative Problem-Solving And Precision Craftsmanship.",
+      desc: "Discovery becomes a technical roadmap: architecture decisions, tech stack selection, and a phased delivery plan mapped to what actually moves your business forward first.",
       img: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800",
       layout: "col",
     },
     {
       num: "03",
       title: "Design",
-      desc: "Founded With Passion For Technology And Design, Quergedruckt Stands For Creative Problem-Solving And Precision Craftsmanship.",
+      desc: "Systems and interfaces are designed together — UX flows, data models, and API contracts — so design and engineering ship in lockstep instead of handing off in silos.",
       img: "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?auto=format&fit=crop&q=80&w=1000",
       layout: "full",
     },
     {
       num: "04",
       title: "Develop",
-      desc: "Founded With Passion For Technology And Design, Quergedruckt Stands For Creative Problem-Solving And Precision Craftsmanship.",
+      desc: "Agile sprints with weekly demos, continuous integration, and code review at every stage. You see real progress every week, not just at the deadline.",
       img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000",
       layout: "full",
     },
     {
       num: "05",
       title: "Launch",
-      desc: "Founded With Passion For Technology And Design, Quergedruckt Stands For Creative Problem-Solving And Precision Craftsmanship.",
+      desc: "We deploy with monitoring, documentation, and a handoff plan built in from day one — then stay on for support, iteration, and scaling as you grow.",
       img: "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?auto=format&fit=crop&q=80&w=1000",
       layout: "full",
     }
@@ -70,9 +70,9 @@ export function ProcessSection() {
         {/* Header Exact Match */}
         <Reveal direction="up">
           <div className="mb-10">
-            <p className="text-accent-orange font-mono uppercase tracking-widest font-medium text-[16px] mb-2">Our Process</p>
+            <p className="text-accent-orange font-mono uppercase tracking-widest font-medium text-[16px] mb-2">Our Workflow</p>
             <h2 className="text-[36px] md:text-[48px] font-display font-bold text-white leading-tight">
-              Kenet Technologies Design Process
+              From Idea To Impact: How We Build.
             </h2>
           </div>
         </Reveal>
