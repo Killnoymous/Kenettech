@@ -24,17 +24,17 @@ export function ServicesSection() {
     },
     {
       title: "Digital Marketing",
-      description: "Founded with passion for technology and design. quergedruckt stands for creative problem-solving and precision craftsmanship.",
+      description: "Data-driven marketing strategies that amplify your brand's voice and maximize ROI across digital channels.",
       icon: TrendingUp
     },
     {
-      title: "UI/UX Design",
-      description: "Founded with passion for technology and design. quergedruckt stands for creative problem-solving and precision craftsmanship.",
+      title: "Custom Software",
+      description: "Tailor-made software solutions engineered from the ground up to solve your unique business problems and technical specifications.",
       icon: Monitor
     },
     {
       title: "Brand Strategy",
-      description: "Founded with passion for technology and design. quergedruckt stands for creative problem-solving and precision craftsmanship.",
+      description: "Comprehensive branding solutions that define your identity, resonate with your target audience, and establish market presence.",
       icon: Zap
     }
   ];
