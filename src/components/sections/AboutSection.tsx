@@ -47,10 +47,10 @@ export function AboutSection() {
 
             <Reveal direction="left" delay={0.3}>
               <p className="text-[15px] md:text-[16px] text-color-text-muted mb-6 leading-relaxed">
-                We've Done This Enough Times To Know You Need A Partner, Not A Vendor. Traditional Web Design Processes Force Your Into The Director's Chair, Relying On Beauty Over Performance. That's Not Good Design. You're The Subject Expert. We're The Design Expert. We Sit At Your Table, Download Your Goals, Understand Why It Matters And Develop A Plan To Get There.
+                Kenet Technologies is an AI solutions and product engineering company based in Rohini, Delhi. We partner with MSMEs, fintechs, and growing businesses to design, build, and ship software that actually moves the needle — not just software that looks good in a pitch deck.
               </p>
               <p className="text-[15px] md:text-[16px] text-color-text-muted mb-12 leading-relaxed">
-                No Bottlenecks, Decision-Fatigue, Or Delays. Just Building The Right Thing For The Right People At The Right Time. That's An ROI Multiplier.
+                You're the subject-matter expert. We're the engineering expert. We sit at the table, understand your real goals, and build the right thing for the right people — no bottlenecks, no guesswork, no wasted time.
               </p>
             </Reveal>
 
@@ -58,16 +58,16 @@ export function AboutSection() {
             <Reveal direction="left" delay={0.4}>
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
                 <div className="flex-1 bg-gradient-to-b from-[#111111] to-[#050505] border border-white/10 rounded-xl p-5 flex flex-col justify-center">
-                  <h3 className="text-[28px] font-display font-medium text-gradient mb-1">650+</h3>
-                  <p className="text-[12px] text-white/70 font-medium">Open Studios</p>
+                  <h3 className="text-[28px] font-display font-medium text-gradient mb-1">40+</h3>
+                  <p className="text-[12px] text-white/70 font-medium">Projects Delivered</p>
                 </div>
                 <div className="flex-1 bg-gradient-to-b from-[#111111] to-[#050505] border border-white/10 rounded-xl p-5 flex flex-col justify-center">
-                  <h3 className="text-[28px] font-display font-medium text-gradient mb-1">6,000+</h3>
-                  <p className="text-[12px] text-white/70 font-medium">Teachers Worldwide</p>
+                  <h3 className="text-[28px] font-display font-medium text-gradient mb-1">15+</h3>
+                  <p className="text-[12px] text-white/70 font-medium">Businesses Empowered</p>
                 </div>
                 <div className="flex-1 bg-gradient-to-b from-[#111111] to-[#050505] border border-white/10 rounded-xl p-5 flex flex-col justify-center">
-                  <h3 className="text-[28px] font-display font-medium text-gradient mb-1">100K+</h3>
-                  <p className="text-[12px] text-white/70 font-medium">Active Members</p>
+                  <h3 className="text-[28px] font-display font-medium text-gradient mb-1">3+</h3>
+                  <p className="text-[12px] text-white/70 font-medium">Years of Craft</p>
                 </div>
               </div>
             </Reveal>
