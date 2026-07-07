@@ -15,42 +15,42 @@ export function ProjectsSection() {
       description: "A Modern Shopping Experience With Seamless Checkout",
       tags: ["React", "Node.js", "Stripe"],
       category: "Development",
-      image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800"
+      image: "/projects/ecommerce.png"
     },
     {
       title: "Brand Identity",
       description: "Complete Rebrand For A Tech Startup",
       tags: ["Branding", "UI/UX", "Strategy"],
       category: "Design",
-      image: "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80&w=800"
+      image: "/projects/brand.png"
     },
     {
       title: "SaaS Dashboard",
       description: "Analytics Platform With Real-Time Insights",
       tags: ["Vue.js", "D3.js", "PostgreSQL"],
       category: "Development",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+      image: "/projects/saas.png"
     },
     {
       title: "Mobile Banking App",
       description: "Secure And Intuitive Banking On The Go",
       tags: ["React Native", "Security", "FinTech"],
       category: "Mobile",
-      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800"
+      image: "/projects/banking.png"
     },
     {
       title: "Portfolio Website",
-      description: "Complete Rebrand For A Tech Startup",
-      tags: ["Branding", "UI/UX", "Strategy"],
+      description: "Minimalist Creative Portfolio For A Digital Artist",
+      tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
       category: "Design",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+      image: "/projects/portfolio.png"
     },
     {
       title: "Fitness Tracker",
-      description: "Analytics Platform With Real-Time Insights",
-      tags: ["Vue.js", "D3.js", "PostgreSQL"],
+      description: "Comprehensive Health Tracking With Personalized Insights",
+      tags: ["Swift", "HealthKit", "Firebase"],
       category: "Mobile",
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800"
+      image: "/projects/fitness.png"
     }
   ];
 
