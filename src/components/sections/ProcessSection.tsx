@@ -79,15 +79,22 @@ export function ProcessSection() {
 
         {/* Big Image Exact Match */}
         <Reveal direction="up" delay={0.2}>
-          <div className="w-full aspect-[21/9] md:aspect-[24/8] rounded-2xl overflow-hidden mb-12 relative border border-white/5 bg-[#000000]">
+          <div className="w-full aspect-[21/9] md:aspect-[24/8] rounded-2xl overflow-hidden mb-12 relative border border-white/5 bg-[#000000] group">
             <img 
               src="/workflow/workflow-banner.png" 
               alt="Professional Design Process" 
               className="w-full h-full object-cover scale-[1.02]"
               loading="lazy"
             />
+            
+            {/* Dynamic Data Pipeline Animation Effect */}
+            <div className="absolute inset-0 z-10 pointer-events-none mix-blend-color-dodge overflow-hidden rounded-2xl">
+              <div className="absolute top-0 left-0 h-full w-[30%] bg-gradient-to-r from-transparent via-[#f97316]/50 to-transparent skew-x-[-20deg] blur-lg animate-data-flow"></div>
+              <div className="absolute top-0 left-0 h-full w-[10%] bg-gradient-to-r from-transparent via-[#ec4899]/70 to-transparent skew-x-[-20deg] blur-md animate-data-flow" style={{ animationDelay: '0.15s' }}></div>
+            </div>
+
             {/* Seamless dark overlay to hide the bottom-right AI watermark */}
-            <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-[#000000] blur-[40px] rounded-full z-10 pointer-events-none"></div>
+            <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-[#000000] blur-[40px] rounded-full z-20 pointer-events-none"></div>
           </div>
         </Reveal>
 

@@ -81,4 +81,11 @@
 }
 .animate-float {
   animation: float 6s ease-in-out infinite;
+}/* Custom Workflow Animation */
+@keyframes data-flow {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(300%); }
+}
+.animate-data-flow {
+  animation: data-flow 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
