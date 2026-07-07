@@ -79,13 +79,15 @@ export function ProcessSection() {
 
         {/* Big Image Exact Match */}
         <Reveal direction="up" delay={0.2}>
-          <div className="w-full aspect-[21/9] md:aspect-[24/8] rounded-2xl overflow-hidden mb-12 relative border border-white/5">
+          <div className="w-full aspect-[21/9] md:aspect-[24/8] rounded-2xl overflow-hidden mb-12 relative border border-white/5 bg-[#000000]">
             <img 
               src="/workflow/workflow-banner.png" 
               alt="Professional Design Process" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover scale-[1.02]"
               loading="lazy"
             />
+            {/* Seamless dark overlay to hide the bottom-right AI watermark */}
+            <div className="absolute -bottom-2 -right-2 w-32 h-32 bg-gradient-to-tl from-[#000000] via-[#000000]/90 to-transparent blur-sm"></div>
           </div>
         </Reveal>
 
