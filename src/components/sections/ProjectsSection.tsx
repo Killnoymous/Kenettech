@@ -19,6 +19,14 @@ export function ProjectsSection() {
       liveUrl: "https://www.aakashacademics.com/"
     },
     {
+      title: "Airavat XDR",
+      description: "Advanced extended detection and response (XDR) cybersecurity platform",
+      tags: ["Cybersecurity", "Platform", "Web"],
+      category: "Web",
+      image: "/images/project-airavat.png",
+      liveUrl: "https://airavatxdr.in/"
+    },
+    {
       title: "Aakash Academics — Mobile App",
       description: "Companion Flutter app extending the coaching platform to students on the go",
       tags: ["Flutter", "Mobile", "Education"],
@@ -60,7 +68,7 @@ export function ProjectsSection() {
   ];
 
   const filteredProjects = activeFilter === 'All Projects' 
-    ? projects 
+    ? projects.filter(p => p.title !== "Aakash Academics — Mobile App")
     : projects.filter(p => p.category === activeFilter);
 
   return (
