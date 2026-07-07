@@ -41,10 +41,10 @@ export function TestimonialsSection() {
 
         <Reveal direction="up" delay={0.2}>
           <p className="text-[20px] md:text-[28px] lg:text-[32px] font-display font-semibold text-white leading-relaxed mb-8 max-w-4xl mx-auto">
-            "They Are Great Team For Database And Web Apps. They Took Extreme Care And Ensured The Platform Functioning Was Smooth. They Are Just The Best Out There. Highly Recommend!"
+            "Kenet Technologies transformed our business operations. They didn't just build a custom software platform—they took the time to deeply understand our challenges and delivered an elegant, lightning-fast, and scalable solution. Their technical expertise is truly unmatched."
           </p>
           <p className="text-[15px] font-bold text-white mb-16">
-            Marry - <span className="text-white/60 font-medium">Founder of D2C Brand</span>
+            Elena Rodriguez - <span className="text-white/60 font-medium">Founder & CEO, TechFlow</span>
           </p>
         </Reveal>
 
