@@ -7,50 +7,47 @@ const MemoizedGalaxy = React.memo(Galaxy);
 export function ProjectsSection() {
   const [activeFilter, setActiveFilter] = useState('All Projects');
 
-  const filters = ['All Projects', 'Design', 'Development', 'Mobile'];
+  const filters = ['All Projects', 'Web', 'Mobile', 'Branding'];
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A Modern Shopping Experience With Seamless Checkout",
-      tags: ["React", "Node.js", "Stripe"],
-      category: "Development",
-      image: "/projects/ecommerce.png"
+      title: "Aakash Academics",
+      description: "Full platform for a coaching institute offering Class 6-12 and government exam prep (SSC, Railway, DSSSB)",
+      tags: ["Education", "Web Platform", "Next.js"],
+      category: "Web",
+      image: "/images/project-aakash-web.png",
+      liveUrl: "https://www.aakashacademics.com/"
     },
     {
-      title: "Brand Identity",
-      description: "Complete Rebrand For A Tech Startup",
-      tags: ["Branding", "UI/UX", "Strategy"],
-      category: "Design",
-      image: "/projects/brand.png"
-    },
-    {
-      title: "SaaS Dashboard",
-      description: "Analytics Platform With Real-Time Insights",
-      tags: ["Vue.js", "D3.js", "PostgreSQL"],
-      category: "Development",
-      image: "/projects/saas.png"
-    },
-    {
-      title: "Mobile Banking App",
-      description: "Secure And Intuitive Banking On The Go",
-      tags: ["React Native", "Security", "FinTech"],
+      title: "Aakash Academics — Mobile App",
+      description: "Companion Flutter app extending the coaching platform to students on the go",
+      tags: ["Flutter", "Mobile", "Education"],
       category: "Mobile",
-      image: "/projects/banking.png"
+      image: "/images/project-aakash-app.png"
     },
     {
-      title: "Portfolio Website",
-      description: "Minimalist Creative Portfolio For A Digital Artist",
-      tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-      category: "Design",
-      image: "/projects/portfolio.png"
+      title: "Bhagwati Creations",
+      description: "E-commerce platform bringing a luxury ethnic wear retailer — sarees, lehengas, designer fabrics — online for the first time",
+      tags: ["E-Commerce", "UI/UX", "Retail"],
+      category: "Web",
+      image: "/images/project-bhagwati.png",
+      liveUrl: "https://www.bhagwaticreations.com/"
     },
     {
-      title: "Fitness Tracker",
-      description: "Comprehensive Health Tracking With Personalized Insights",
-      tags: ["Swift", "HealthKit", "Firebase"],
-      category: "Mobile",
-      image: "/projects/fitness.png"
+      title: "MuscFit",
+      description: "Pre-launch brand site and drop-countdown experience for an athletic apparel label",
+      tags: ["Branding", "Landing Page", "Fashion"],
+      category: "Branding",
+      image: "/images/project-muscfit.png",
+      liveUrl: "https://www.muscfit.com/"
+    },
+    {
+      title: "Moncy Yohannan — Portfolio",
+      description: "Personal portfolio site for a creative developer and designer",
+      tags: ["Portfolio", "UI/UX", "Web"],
+      category: "Web",
+      image: "/images/project-moncy.png",
+      liveUrl: "https://moncy.dev/"
     }
   ];
 
@@ -127,7 +124,11 @@ export function ProjectsSection() {
                     <h3 className="text-[20px] font-display font-medium text-white group-hover:text-[#f97316] transition-colors">
                       {project.title}
                     </h3>
-                    <ArrowUpRight className="w-5 h-5 text-white/50 group-hover:text-white transition-colors" />
+                    {project.liveUrl && (
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="shrink-0 ml-4">
+                        <ArrowUpRight className="w-5 h-5 text-white/50 group-hover:text-white transition-colors hover:scale-110" />
+                      </a>
+                    )}
                   </div>
                   
                   <p className="text-[#a3a3a3] text-[14px] mb-5 line-clamp-2">
