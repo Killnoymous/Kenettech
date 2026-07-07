@@ -79,7 +79,7 @@ export function ProjectsSection() {
         {/* Header exact match */}
         <div className="text-center mb-12">
           <Reveal direction="up">
-            <p className="text-[#f97316] font-medium text-[16px] mb-2">Our Portfolio</p>
+            <p className="text-[#f97316] font-mono uppercase tracking-widest font-medium text-[16px] mb-2">Our Portfolio</p>
             <h2 className="text-[36px] md:text-[48px] font-display font-bold text-white leading-tight">
               Explore Our Latest Projects
             </h2>

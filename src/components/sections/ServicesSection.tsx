@@ -110,7 +110,7 @@ export function ServicesSection() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
           <Reveal direction="up">
             <div className="max-w-2xl">
-              <p className="text-accent-orange text-[16px] mb-2 font-medium">Our Services</p>
+              <p className="text-accent-orange font-mono uppercase tracking-widest text-[16px] mb-2 font-medium">Our Services</p>
               <h2 className="text-[36px] md:text-[48px] font-display font-bold text-white leading-tight">
                 We Offer All Digital Solutions.
               </h2>

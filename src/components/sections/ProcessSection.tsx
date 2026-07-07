@@ -70,7 +70,7 @@ export function ProcessSection() {
         {/* Header Exact Match */}
         <Reveal direction="up">
           <div className="mb-10">
-            <p className="text-accent-orange font-medium text-[16px] mb-2">Our Process</p>
+            <p className="text-accent-orange font-mono uppercase tracking-widest font-medium text-[16px] mb-2">Our Process</p>
             <h2 className="text-[36px] md:text-[48px] font-display font-bold text-white leading-tight">
               Kenet Technologies Design Process
             </h2>

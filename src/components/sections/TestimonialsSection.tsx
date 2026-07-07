@@ -26,7 +26,7 @@ export function TestimonialsSection() {
       <div className="container px-6 relative z-20 text-center max-w-5xl mx-auto flex-grow flex flex-col items-center justify-center">
         
         <Reveal direction="up">
-          <p className="text-accent-orange font-bold text-sm mb-4">Testimonials</p>
+          <p className="text-accent-orange font-mono uppercase tracking-widest font-bold text-sm mb-4">Testimonials</p>
           <h2 className="text-[36px] md:text-[48px] font-display font-black text-white leading-tight mb-12">
             Our Happy Clients Says
           </h2>
