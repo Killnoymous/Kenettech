@@ -3,7 +3,6 @@ import { Reveal } from '../ui/Reveal';
 export function HeroSection() {
   const logos = [
     { name: "TOP 10 — SAMSUNG SOLVE FOR TOMORROW 2025", img: null },
-    { name: "TRUSTED BY 50+ COMPANIES", img: null },
     { name: "NATIONAL FINALIST — INDIA INNOVATES 2026", img: null },
     { name: "PITCHED AT FITT, IIT DELHI", img: null },
   ];
@@ -51,14 +50,14 @@ export function HeroSection() {
         <div className="w-full max-w-[900px]">
           <Reveal direction="up" delay={0.1}>
             <h1 className="text-[60px] sm:text-[72px] md:text-[84px] lg:text-[96px] font-display font-bold leading-[1.1] tracking-tight text-white mb-6 whitespace-nowrap">
-              We Design <span className="text-gradient">Websites</span><br/>
-              That Grow Businesses.
+              We Engineer <span className="text-gradient">AI Products</span><br/>
+              That Actually Ship.
             </h1>
           </Reveal>
 
           <Reveal direction="up" delay={0.2}>
             <p className="text-[16px] md:text-[18px] text-white/70 max-w-[650px] mb-10 leading-relaxed font-medium">
-              Transform Your Brand With Stunning Web Design, Innovative Development, And Data-Driven Strategies That Deliver Real Results.
+              Kenet Technologies partners with MSMEs, fintechs, and growing businesses to design, build, and launch AI-driven software — from custom engineering to our own products, NoteNetra and VisionPay.
             </p>
           </Reveal>
 
