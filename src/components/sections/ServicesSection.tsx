@@ -78,8 +78,8 @@ export function ServicesSection() {
           
           <Reveal direction="up" delay={0.2}>
             {/* Gradient Border Button "Discover More" */}
-            <div className="hidden md:block relative p-[1px] rounded-lg bg-gradient-to-r from-accent-pink to-accent-orange group cursor-pointer">
-              <a href="#all-services" className="flex items-center justify-center bg-black text-white/90 px-6 py-2.5 rounded-lg text-[14px] font-medium transition-colors group-hover:bg-transparent">
+            <div className="hidden md:inline-block relative p-[1px] rounded-lg bg-gradient-to-r from-accent-pink to-accent-orange group cursor-pointer">
+              <a href="#all-services" className="flex items-center justify-center bg-black text-white/90 px-6 py-2.5 rounded-lg text-[14px] font-medium transition-colors group-hover:bg-transparent whitespace-nowrap">
                 Discover More
               </a>
             </div>
