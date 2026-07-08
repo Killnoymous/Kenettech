@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import gsap from 'gsap';
 
 export const Preloader = () => {
@@ -12,7 +12,8 @@ export const Preloader = () => {
 
   const handleEnter = () => {
     // Prevent double triggers
-    if (containerRef.current && gsap.getProperty(containerRef.current, 'opacity') < 1) return;
+    const currentOpacity = Number(gsap.getProperty(containerRef.current, 'opacity'));
+    if (containerRef.current && currentOpacity < 1) return;
     
     gsap.to(containerRef.current, {
       opacity: 0,
