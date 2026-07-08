@@ -49,7 +49,7 @@ export function HeroSection() {
         {/* Set max-w-none to prevent "We Design Websites" from wrapping early */}
         <div className="w-full max-w-[900px]">
           <Reveal direction="up" delay={0.1}>
-            <h1 className="text-[60px] sm:text-[72px] md:text-[84px] lg:text-[96px] font-display font-bold leading-[1.1] tracking-tight text-white mb-6 whitespace-nowrap">
+            <h1 className="text-[42px] sm:text-[60px] md:text-[84px] lg:text-[96px] font-display font-bold leading-[1.1] tracking-tight text-white mb-6 whitespace-normal md:whitespace-nowrap">
               We Engineer <span className="text-gradient">AI Products</span><br/>
               That Actually Ship.
             </h1>
