@@ -3,7 +3,6 @@ import { Layout } from './components/ui/Layout';
 import { HomePage } from './pages/HomePage';
 import { ScrollToTop } from './components/ui/ScrollToTop';
 import { Preloader } from './components/Preloader/Preloader';
-
 function App() {
   return (
     <BrowserRouter>

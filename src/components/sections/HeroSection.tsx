@@ -1,4 +1,7 @@
 import { Reveal } from '../ui/Reveal';
+import { Canvas } from '@react-three/fiber';
+import { ImageCube } from '../ui/ImageCube';
+import { Suspense } from 'react';
 
 export function HeroSection() {
   const logos = [
@@ -28,19 +31,16 @@ export function HeroSection() {
            <div className="absolute bottom-[20%] left-[40%] w-[300px] h-[150px] bg-accent-pink/20 blur-[60px] rounded-full"></div>
         </div>
 
-        {/* Abstract Glowing Orb (Top Right) */}
-        <div className="absolute top-[20%] right-[15%] w-24 h-24 z-10 animate-float opacity-80 pointer-events-none hidden lg:block">
-           <div className="relative w-full h-full">
-             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#9d4edd] to-[#f97316]"></div>
-             <div className="absolute inset-1 rounded-full bg-black"></div>
-             {/* Wireframe lines effect */}
-             <div className="absolute inset-0 rounded-full border border-white/20 transform rotate-45 scale-90"></div>
-             <div className="absolute inset-0 rounded-full border border-accent-orange/40 transform -rotate-45 scale-95"></div>
-             <div className="absolute inset-0 rounded-full border border-accent-pink/40 transform rotate-90 scale-95"></div>
-             {/* Core glow */}
-             <div className="absolute inset-4 rounded-full bg-gradient-to-br from-[#9d4edd] to-[#f97316] blur-[10px] opacity-60"></div>
-           </div>
-        </div>
+      </div>
+
+      {/* 3D Image Cube (Right Side) */}
+      <div className="absolute top-0 right-[-5%] w-[65%] h-full z-10 hidden lg:block pointer-events-auto cursor-grab active:cursor-grabbing">
+         <Canvas camera={{ position: [0, 0, 7.5], fov: 45 }} dpr={[1, 2]}>
+           <ambientLight intensity={1} />
+           <Suspense fallback={null}>
+             <ImageCube />
+           </Suspense>
+         </Canvas>
       </div>
 
       <div className="container px-6 lg:px-12 relative z-20 mx-auto flex-grow flex flex-col justify-center">
