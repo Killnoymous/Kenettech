@@ -32,19 +32,9 @@ export function Navbar() {
       <div className="container px-6 flex items-center justify-between">
         
         {/* New Professional Logo */}
-        <a href="#" className="flex items-center space-x-3 group">
-          <div className="w-9 h-9 rounded-lg bg-gradient-to-tr from-[#ec4899] to-[#f97316] p-[1.5px] flex-shrink-0 group-hover:scale-105 transition-transform duration-300 shadow-[0_0_15px_rgba(236,72,153,0.3)]">
-            <div className="w-full h-full bg-[#050505] rounded-[6.5px] flex items-center justify-center">
-              <svg viewBox="0 0 24 24" className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M6 3v18" />
-                <path d="M20 4 10 12l10 8" />
-              </svg>
-            </div>
-          </div>
-          <div className="flex flex-col">
-            <span className="text-[19px] font-display font-bold text-white tracking-tight leading-none mb-0.5">Kenet</span>
-            <span className="text-[11px] font-medium text-white/50 tracking-widest leading-none uppercase">Technologies</span>
-          </div>
+        <a href="#" className="flex items-center space-x-3 md:space-x-4 group">
+          <img src="/logo.svg" alt="Kenet Technologies Icon" className="h-14 md:h-16 w-auto flex-shrink-0 group-hover:scale-105 transition-transform duration-300" />
+          <img src="/logo-text.svg" alt="Kenet Technologies" className="h-7 md:h-9 w-auto flex-shrink-0 mt-1 opacity-90 group-hover:opacity-100 transition-opacity duration-300" />
         </a>
 
         {/* Desktop Nav */}
